@@ -6,6 +6,11 @@ package com.dhz.leetcode_1;
  */
 
 public class ConvertToTitle {
+    /**
+     * 给定一个正整数，将其转换为excel的行标 A...AZ
+     * @param n
+     * @return
+     */
     public String convertToTitle(int n) {
         String s = "";
         while (n != 0) {
